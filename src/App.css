@@ -67,26 +67,20 @@
 
 .aboutTitle {
   text-align: left;
-  padding-left: 35%;
-  color: mediumblue;
-  text-decoration: underline;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutTitle img {
+  max-width: 15%;
+  max-height: auto;
 }
 
 .cardList {
   display: flex;
+  flex-grow: 5;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
-}
-
-.row {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.Row {
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
 }

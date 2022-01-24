@@ -6,7 +6,7 @@ const About = () => {
         <div className="about">
             <div className='aboutTitle'>
                 <h1>About Me:</h1>
-                <img src='https://www.facebook.com/photo/?fbid=10159142206810311&set=a.10150294163695311' alt='Picture of me' />
+                <img src='https://media-exp1.licdn.com/dms/image/C5603AQERge2fIH6W2g/profile-displayphoto-shrink_800_800/0/1642737373842?e=1648684800&v=beta&t=Qn_eX_ud_8_JelLZ-UYv2DhbqtXQLHPEwU2XG7vWlQs' alt='Picture of me' />
             
             </div>
             <h5>My name is Brendan Polius Prosper</h5>
