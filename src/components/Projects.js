@@ -3,7 +3,7 @@ import Card from './Card'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='projects'>
             <h1>My Projects</h1>
             <Card name="ShopCart" />
         </div>

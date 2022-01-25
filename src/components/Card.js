@@ -8,7 +8,6 @@ const Card = (props) => {
                 <h2 className="card-title">{props.name}</h2>
                 <h4 className="card-text">{props.stars}</h4>
                 <p className="card-text">{props.description}</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
     )
 }
