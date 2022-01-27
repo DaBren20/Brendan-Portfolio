@@ -10,6 +10,8 @@ const ProjectsPage = () => {
         <div>
             <Menu></Menu>
                 <body>
+                    <h1 style={{textAlign: "center"}}>My Projects</h1>
+
                     <Projects />
                     <Footer />
                 </body>
