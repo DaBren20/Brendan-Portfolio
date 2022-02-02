@@ -2,13 +2,13 @@ import React from 'react'
 import Menu from '../components/Menu'
 import Form from '../components/Form'
 import Footer from '../components/Footer'
+import Info from '../components/Info'
 
 const ContactPage = () => {
     return (
         <div>
            <Menu></Menu>
-           <h1>Contact Page</h1>
-           <Form></Form>
+           <Info />
            <Footer /> 
         </div>
     )

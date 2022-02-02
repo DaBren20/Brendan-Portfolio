@@ -16,7 +16,7 @@
 
 .hero {
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://yfcfredericton.ca/wp-content/uploads/Toronto-skyline.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/assets/Toronto-skyline.jpg");
   background-size: cover;
   padding-top: 10%;
   padding-bottom: 25%;
@@ -103,4 +103,14 @@
 
 .project1 {
   text-align: center;
+}
+
+.contact {
+  text-align: center;
+  font-size: 24px;
+}
+
+.cardList img card {
+  max-height: 5%;
+  max-width: auto;
 }
