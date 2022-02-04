@@ -1,4 +1,5 @@
 import React from 'react'
+import Pdf from '../assets/pdf/Brendan_Polius_Prosper_Resume_2022.pdf'
 
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
             <br />
             <br />
             <h4>Click here to download my resume</h4>
-            <a href="https://docs.google.com/document/d/1hvASrcVyVt5Fm0yQBRSKJ_FXpMSJMZuzuTyjPTpTA4o/edit?usp=sharing" download="Brendan Polius Prosper Resume">
+            <a href={Pdf} without rel="noopener noreferrer" target="_blank">
                 <button type="submit" className="btn btn-primary btn-lg">Resume</button>
             </a>    
         </div>
