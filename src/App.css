@@ -59,15 +59,16 @@
 }
 
 .about {
-  text-align: center;
+  font-size: 24px;
+  text-align: left;
   color: black;
-  padding-top: 5%;
   padding-bottom: 5%;
 }
 
 .aboutTitle {
   text-align: center;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: darkslateblue;
 }
 
 .aboutTitle img {
@@ -81,9 +82,10 @@
   flex-grow: 5;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: baseline;
   text-align: center;
+  gap: 30px;
 }
 
 .cardList Card {
@@ -118,6 +120,7 @@
 .aboutDesc {
   text-align: center;
   width: 40%;
+  color: white;
 }
 
 .card-horizontal img {
@@ -126,6 +129,16 @@
   width: 20%;
 }
 
+.aboutPicture {
+  height: 12%;
+  width: 12%;
+  float: left;
+}
+
 .about p {
+  width: 45%;
+}
+
+.skills {
   text-align: center;
 }

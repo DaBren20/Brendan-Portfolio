@@ -10,7 +10,7 @@ const LongCard = (props) => {
                     <a href={props.link}>
                         <h2 className="card-title">{props.name}</h2>
                     </a>
-                    <h4 className="card-text">{props.stars}</h4>
+                    <h4 className="card-text">{props.tools}</h4>
                     <p className="card-text">{props.description}</p>                
                 </div>
             </div>

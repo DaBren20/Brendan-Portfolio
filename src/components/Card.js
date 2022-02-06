@@ -5,7 +5,7 @@ const Card = (props) => {
         
             <div className="card grid grid-gap-1 grid-row-gap1 grid col-2">
                 
-                <img src={props.img} alt={props.alt} />
+                {/*<img src={props.img} alt={props.alt} />*/}
                 <a href={props.link}>
                     <h2 className="card-title">{props.name}</h2>
                 </a>
