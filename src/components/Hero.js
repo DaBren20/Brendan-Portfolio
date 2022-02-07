@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1>Welcome to my Portfolio!</h1>
             </div>
             <h3>Brendan Polius Prosper</h3>
-            <p>I am a Full-stack developer (MERN Stack) with other skills in Java anc C++</p>
+            <p>I am a Full-stack developer (MERN Stack) with other skills in Java and C++</p>
             <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/brendan-polius-prosper-b4bb59225/" role="button"><i className="bi bi-linkedin"></i></a>
             <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/DaBren20" role="button"><i className="bi bi-github"></i></a> 
             <br />
