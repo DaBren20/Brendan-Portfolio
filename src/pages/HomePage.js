@@ -7,11 +7,11 @@ const HomePage = () => {
     return (
         <div className='home'>
             <header>
-                <Menu></Menu>
+                <Menu />
             </header>
 
-            <Hero></Hero>
-            <Footer></Footer>   
+            <Hero />
+            <Footer />   
         </div>
     )
 }

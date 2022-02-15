@@ -6,6 +6,8 @@ const About = () => {
         <div className="about">
             
                 <h1>About Me:</h1>
+                <br />
+                <br />
                 <img className="aboutPicture" src='https://media-exp1.licdn.com/dms/image/C5603AQERge2fIH6W2g/profile-displayphoto-shrink_800_800/0/1642737373842?e=1648684800&v=beta&t=Qn_eX_ud_8_JelLZ-UYv2DhbqtXQLHPEwU2XG7vWlQs' alt='Picture of me' style={{align: "left"}}/>
             
                 <p>

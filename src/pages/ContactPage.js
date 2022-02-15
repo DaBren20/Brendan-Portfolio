@@ -7,7 +7,7 @@ import Info from '../components/Info'
 const ContactPage = () => {
     return (
         <div>
-           <Menu></Menu>
+           <Menu />
            <Info />
            <Footer /> 
         </div>

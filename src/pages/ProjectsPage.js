@@ -6,7 +6,7 @@ import Projects from '../components/Projects'
 const ProjectsPage = () => {
     return (
         <div>
-            <Menu></Menu>
+            <Menu />
                 <body>
                     <h1 style={{textAlign: "center"}}>My Projects</h1>
 

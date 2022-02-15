@@ -1,7 +1,8 @@
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .menu, .main, .header, .description, .footer, .hero, .form {
+   .main, .header, .footer, .hero{
     width:100%;
+    height: 100%;
   }
 }
 
@@ -129,6 +130,7 @@
   text-align: center;
   width: 40%;
   color: white;
+  padding-left: 5%;
 }
 
 .card-horizontal img {
@@ -141,10 +143,12 @@
   height: 12%;
   width: 12%;
   float: left;
+  border-radius: 50%;
 }
 
 .about p {
-  width: 45%;
+  width: 55%;
+  padding-left: 20%;
 }
 
 .skills {
